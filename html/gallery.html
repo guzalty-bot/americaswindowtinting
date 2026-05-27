@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery America's Window Tinting &amp; Graphics</title>
+    <link rel="icon" type="image/png" href="../images/Icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oswald:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+  const menuToggle = document.querySelector('.menu-toggle');
+  const mainNav = document.querySelector('.main-nav');
+  
+  menuToggle.addEventListener('click', function() {
+    menuToggle.classList.toggle('active');
+    mainNav.classList.toggle('active');
+  });
+  
+  // Close Menu
+  document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+      menuToggle.classList.remove('active');
+      mainNav.classList.remove('active');
+    });
+  });
+});
+</script>
+</head>
+    
+<body>
+  <header class="top-bar">
+    <div class="logo-wrap">
+      <a href="../index.html">
+        <img src="../images/Hermiston%20Logo.png" alt="America's Window Tinting & Graphics" class="logo">
+      </a>
+    </div>
+
+      <button class="menu-toggle" aria-label="Toggle menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+      
+    <nav class="main-nav">
+      <a href="../index.html">Home</a>
+      <a href="../html/Services.html" class="active">Services</a>
+      <a href="../html/gallery.html">Gallery</a>
+      <a href="../html/contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="gallery">
+        <div class="gallery-title-n-buttons">
+      <h1 class="services-title" >Our projects</h1>
+      <p class="page-subtitle"></p>
+   
+            <!-- Buttons -->
+  <div class="gallery-filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="tint">Vehicle</button>
+    <button class="filter-btn" data-filter="commercial">Commercial</button>
+    <button class="filter-btn" data-filter="residential">Residential</button>
+    <button class="filter-btn" data-filter="ppf">PPF</button>
+    <button class="filter-btn" data-filter="wrap">Wraps &amp; Graphics</button>
+  </div>
+            
+        </div>
+
+  <!-- Gallery -->      
+      
+  <section class="gallery-container">
+    
+      <article class="gallery-item" data-category="wrap" data-img="../images/WrapsFleets/wrap.jpeg" data-title="Car Wrap" data-desc="Red Vinyl Wrap">
+      <img src="../images/WrapsFleets/wrap.jpeg" alt="Car Wrap">
+        </article> 
+      
+      <article class="gallery-item" data-category="tint" data-img="../images/Auto/honda%20wraphics.jpeg" data-title="Window Tinting" data-desc="Appearance Improvement">
+      <img src="../images/Auto/honda%20wraphics.jpeg" alt="Car Wrap">
+        </article>
+
+    <article class="gallery-item" data-category="wrap" data-img="../images/WrapsFleets/side%20by%20side%202.jpeg" data-title="Side by Side Wrap" data-desc="Camo Wrap">
+      <img src="../images/WrapsFleets/side%20by%20side%202.jpeg" alt="custom wrap">
+    </article>
+
+    <article class="gallery-item" data-category="wrap" data-img="../images/WrapsFleets/graphics%20truck.jpeg" data-title="Food Truck Wrap" data-desc="Custom Wrap">
+      <img src="../images/WrapsFleets/graphics%20truck.jpeg" alt="custom wrap">
+    </article>
+
+    <article class="gallery-item" data-category="wrap" data-img="../images/WrapsFleets/graphics%20truck%207.jpeg" data-title="Equipment Wrap" data-desc="Custom Wrap">
+      <img src="../images/WrapsFleets/graphics%20truck%207.jpeg" alt="wrap">
+    </article>
+
+    <article class="gallery-item" data-category="wrap" data-img="../images/WrapsFleets/graphics%20truck%206.jpeg" data-title="Vinyl Fleets" data-desc="Custom Fleets">
+      <img src="../images/WrapsFleets/graphics%20truck%206.jpeg" alt="wrap">
+    </article>
+
+    <article class="gallery-item" data-category="wrap" data-img="../images/WrapsFleets/graphics%20truck%205.jpeg" data-title="Vinyl Graphics" data-desc="Custom Graphics">
+      <img src="../images/WrapsFleets/graphics%20truck%205.jpeg" alt="wrap">
+      </article>
+          
+    <article class="gallery-item" data-category="wrap" data-img="../images/WrapsFleets/graphics%20truck%203.jpeg" data-title="Partial Wrap" data-desc="Custom Graphics">
+      <img src="../images/WrapsFleets/graphics%20truck%203.jpeg" alt="wrap">
+    </article>
+
+    <article class="gallery-item" data-category="wrap" data-img="../images/WrapsFleets/graphics%20truck%202.jpeg" data-title="Full Wrap" data-desc="Custom Graphics">
+      <img src="../images/WrapsFleets/graphics%20truck%202.jpeg" alt="wrap">
+      </article>
+
+    <article class="gallery-item" data-category="wrap" data-img="../images/WrapsFleets/graphics%206.jpeg" data-title="Graphics" data-desc="Custom Graphics">
+      <img src="../images/WrapsFleets/graphics%206.jpeg" alt="wrap">
+    </article>      
+      
+    <article class="gallery-item" data-category="wrap" data-img="../images/WrapsFleets/graphics%20.jpeg" data-title="Graphics" data-desc="Custom Graphics">
+      <img src="../images/WrapsFleets/graphics%20.jpeg" alt="wrap">
+    </article>
+
+    <article class="gallery-item" data-category="wrap" data-img="../images/WrapsFleets/fleet.jpeg" data-title="Full Wrap" data-desc="Custom Graphics">
+      <img src="../images/WrapsFleets/fleet.jpeg" alt="wrap">
+    </article>
+          
+    <article class="gallery-item" data-category="wrap" data-img="../images/WrapsFleets/Fleet%20AC.jpeg" data-title="Full Wrap" data-desc="Custom Graphics">
+      <img src="../images/WrapsFleets/Fleet%20AC.jpeg" alt="wrap">
+    </article>
+
+    <article class="gallery-item" data-category="residential" data-img="../images/Residential/tint%20residential2.jpeg" data-title="Residential Window Tint" data-desc="Privacy &amp; Heat Control Films">
+      <img src="../images/Residential/tint%20residential2.jpeg" alt="residential window tint">
+    </article>    
+      
+          <article class="gallery-item" data-category="residential" data-img="../images/Residential/tint%20residential.jpeg" data-title="Residential Window Tint" data-desc="Privacy &amp; Heat Control Films">
+      <img src="../images/Residential/tint%20residential.jpeg" alt="residential window tint">
+    </article>
+
+    <article class="gallery-item" data-category="residential" data-img="../images/Residential/tint%20residential%20(2).jpeg" data-title="Residential Window Tint" data-desc="Privacy &amp; Heat Control Films">
+      <img src="../images/Residential/tint%20residential%20(2).jpeg" alt="residential window tint">
+    </article>    
+                  
+    <article class="gallery-item" data-category="ppf" data-img="../images/PPF/ppf.jpeg" data-title="Gloss PPF" data-desc="Gloss Finish">
+      <img src="../images/PPF/ppf.jpeg" alt="ppf">
+    </article>
+
+    <article class="gallery-item" data-category="ppf" data-img="../images/PPF/luxury%20ppf.jpeg" data-title="Luxury PPF" data-desc="Matte Finish">
+      <img src="../images/PPF/luxury%20ppf.jpeg" alt="ppf">
+    </article>
+
+    <article class="gallery-item" data-category="ppf" data-img="../images/PPF/ford%20ppf.jpeg" data-title="Gloss PPF" data-desc="Gloss Finish PPF">
+      <img src="../images/PPF/ford%20ppf.jpeg" alt="ppf">
+    </article>
+      
+    <article class="gallery-item" data-category="ppf" data-img="../images/PPF/corvette%20ppf2.jpeg" data-title="Full Car Wrap" data-desc="Color PPF Matte Finish">
+      <img src="../images/PPF/corvette%20ppf2.jpeg" alt="ppf">
+    </article>
+          
+    <article class="gallery-item" data-category="ppf" data-img="../images/PPF/corvette%20ppf.jpeg" data-title="Full Car Wrap" data-desc="Gloss Finish PPF">
+      <img src="../images/PPF/corvette%20ppf.jpeg" alt="ppf">
+    </article>
+
+    <article class="gallery-item" data-category="ppf" data-img="../images/PPF/chevrolet.jpeg" data-title="Full Car Wrap" data-desc="Matte Finish PPF">
+      <img src="../images/PPF/chevrolet.jpeg" alt="ppf">
+    </article>
+
+    <article class="gallery-item" data-category="ppf" data-img="../images/PPF/chevrolet%20ppf2.jpeg" data-title="Full Car Wrap" data-desc="Matte Finish PPF">
+      <img src="../images/PPF/chevrolet%20ppf2.jpeg" alt="ppf">
+    </article>
+      
+        <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/tint%20commerciall3.jpeg" data-title="Commercial Window Tint" data-desc="Privacy &amp; Heat Rejection">
+      <img src="../images/Commercial/tint%20commerciall3.jpeg" alt="commercial">
+    </article>
+          
+    <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/tint%20commercial91.jpeg" data-title="Commercial Window Tint" data-desc="Blackout Privacy Tint">
+      <img src="../images/Commercial/tint%20commercial91.jpeg" alt="commercial">
+    </article>
+
+    <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/tint%20commercial91%20(2).jpeg" data-title="Commercial Window Tint" data-desc="Privacy &amp; Heat Rejection">
+      <img src="../images/Commercial/tint%20commercial91%20(2).jpeg" alt="commercial">
+    </article>
+
+    <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/tint%20commercial8.jpeg" data-title="Commercial Window Tint" data-desc="Privacy &amp; Heat Rejection">
+      <img src="../images/Commercial/tint%20commercial8.jpeg" alt="commercial">
+    </article>
+        
+        <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/tint%20commercial8%20(2).jpeg" data-title="Commercial Window Tint" data-desc="Blackout Window Tint">
+      <img src="../images/Commercial/tint%20commercial8%20(2).jpeg" alt="commercial">
+    </article>
+          
+    <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/tint%20commercial7.jpeg" data-title="Commercial Window Tint" data-desc="Blackout Window Tint">
+        <img src="../images/Commercial/tint%20commercial7.jpeg" alt="commercial">
+    </article>
+
+    <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/tint%20commercial6.jpeg" data-title="Commercial Window Tint" data-desc="Blackout Window Tint">
+      <img src="../images/Commercial/tint%20commercial6.jpeg" alt="commercial">
+    </article>
+
+    <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/tint%20commercial5.jpeg" data-title="Commercial Window Tint" data-desc="Privacy &amp; Heat Rejection">
+      <img src="../images/Commercial/tint%20commercial5.jpeg" alt="commercial">
+    </article>
+        
+       <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/tint%20commercial4.jpeg" data-title="Commercial Window Tint" data-desc="Privacy &amp; Heat Rejection">
+      <img src="../images/Commercial/tint%20commercial4.jpeg" alt="commercial">
+    </article>
+
+    <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/tint%20commercial23.jpeg" data-title="Commercial Window Tint" data-desc="Privacy &amp; Heat Rejection">
+      <img src="../images/Commercial/tint%20commercial23.jpeg" alt="commercial">
+    </article>
+
+    <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/tint%20commercial22.jpeg" data-title="Commercial Window Tint" data-desc="Privacy &amp; Heat Rejection">
+      <img src="../images/Commercial/tint%20commercial22.jpeg" alt="commercial">
+    </article>
+      
+    <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/tint%20commercial21.jpeg" data-title="Commercial Window Tint" data-desc="Blackout &amp; Heat Rejection">
+      <img src="../images/Commercial/tint%20commercial21.jpeg" alt="commercial">
+    </article>
+          
+    <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/tint%20commercial2.jpeg" data-title="Commercial Window Tint" data-desc="Privacy &amp; Heat Rejection">
+      <img src="../images/Commercial/tint%20commercial2.jpeg" alt="commercial">
+    </article>
+
+    <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/tint%20commercial18.jpeg" data-title="Commercial Window Tint" data-desc="Privacy &amp; Heat Rejection">
+      <img src="../images/Commercial/tint%20commercial18.jpeg" alt="commercial">
+    </article>
+      
+    <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/tint%20commercial15.jpeg" data-title="Commercial Window Tint" data-desc="Blackout &amp; Heat Rejection">
+      <img src="../images/Commercial/tint%20commercial15.jpeg" alt="commercial">
+    </article>
+      
+    <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/tint%20commercial14.jpeg" data-title="Commercial Window Tint" data-desc="Blackout &amp; Heat Rejection">
+      <img src="../images/Commercial/tint%20commercial14.jpeg" alt="commercial">
+    </article>
+          
+    <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/tint%20commercial11.jpeg" data-title="Commercial Window Tint" data-desc="Privacy &amp; Heat Rejection">
+      <img src="../images/Commercial/tint%20commercial11.jpeg" alt="commercial">
+    </article>
+
+    <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/tint%20commercial.jpeg" data-title="Commercial Window Tint" data-desc="Blackout &amp; Heat Rejection">
+      <img src="../images/Commercial/tint%20commercial.jpeg" alt="commercial">
+    </article>
+
+    <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/tint%20commercial%202.jpeg" data-title="Commercial Window Tint" data-desc="Blackout &amp; Heat Rejection">
+      <img src="../images/Commercial/tint%20commercial%202.jpeg" alt="commercial">
+    </article>
+
+      <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/CommercialTint1.jpg" data-title="Commercial Window Tint" data-desc="Privacy &amp; Heat Rejection">
+      <img src="../images/Commercial/CommercialTint1.jpg" alt="commercial">
+    </article>
+      
+    <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/Commercial%20Tint.jpg" data-title="Commercial Window Tint" data-desc="Privacy &amp; Heat Rejection">
+      <img src="../images/Commercial/Commercial%20Tint.jpg" alt="commercial">
+    </article>
+          
+    <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/ChipotleTint.jpg" data-title="Commercial Window Tint" data-desc="Privacy &amp; Heat Rejection">
+      <img src="../images/Commercial/ChipotleTint.jpg" alt="commercial">
+    </article>
+
+    <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/ArchitecturalTint.jpeg" data-title="Commercial Window Tint" data-desc="Privacy &amp; Heat Rejection">
+      <img src="../images/Commercial/ArchitecturalTint.jpeg" alt="commercial">
+    </article>
+
+    <article class="gallery-item" data-category="commercial" data-img="../images/Commercial/Architectural.jpg" data-title="Commercial Window Tint" data-desc="Privacy &amp; Heat Rejection">
+      <img src="../images/Commercial/Architectural.jpg" alt="commercial">
+    </article>
+      
+    <article class="gallery-item" data-category="tint" data-img="../images/Auto/Yellow%20Chevrolet%20Tint.jpg" data-title="Auto Window Tint" data-desc="Privacy &amp; Heat Protection">
+      <img src="../images/Auto/Yellow%20Chevrolet%20Tint.jpg" alt="tint">
+    </article>
+
+    <article class="gallery-item" data-category="tint" data-img="../images/Auto/tintSide%20by%20side.jpg" data-title="Side by Side Window Tint" data-desc="Privacy &amp; Heat Protection Tinting">
+      <img src="../images/Auto/tintSide%20by%20side.jpg" alt="tint">
+    </article>
+    
+      <article class="gallery-item" data-category="tint" data-img="../images/Auto/TintHyundai.jpg" data-title="Window Tinting" data-desc="Privacy &amp; Heat Protection Tinting">
+      <img src="../images/Auto/TintHyundai.jpg" alt="tint">
+    </article>
+      
+    <article class="gallery-item" data-category="ppf" data-img="../images/Auto/tintequipment7.jpeg" data-title="PPF" data-desc="Gloss Finish PPF">
+      <img src="../images/Auto/tintequipment7.jpeg" alt="ppf">
+    </article>
+          
+    <article class="gallery-item" data-category="tint" data-img="../images/Auto/TintClassic1.jpg" data-title="Window Tinting" data-desc="Privacy Window Tint">
+      <img src="../images/Auto/TintClassic1.jpg" alt="tint">
+    </article>
+
+    <article class="gallery-item" data-category="tint" data-img="../images/Auto/TintClassic.jpg" data-title="Window Tinting" data-desc="Privacy Window Tint">
+      <img src="../images/Auto/TintClassic.jpg" alt="tint">
+    </article>
+
+    <article class="gallery-item" data-category="tint" data-img="../images/Auto/TintClassic%20Truck.jpg" data-title="Window Tinting" data-desc="Privacy Window Tint">
+      <img src="../images/Auto/TintClassic%20Truck.jpg" alt="tint">
+    </article>
+      
+    <article class="gallery-item" data-category="tint" data-img="../images/Auto/TintClassic%201.jpg" data-title="Window Tinting" data-desc="Privacy Window Tint">
+      <img src="../images/Auto/TintClassic%201.jpg" alt="tint">
+    </article>
+      
+    <article class="gallery-item" data-category="tint" data-img="../images/Auto/TintChevrolet.jpg" data-title="Window Tinting" data-desc="Privacy Window Tint">
+      <img src="../images/Auto/TintChevrolet.jpg" alt="tint">
+    </article>
+          
+    <article class="gallery-item" data-category="tint" data-img="../images/Auto/TintBlue%20GMC.jpg" data-title="Window Tinting" data-desc="Privacy Window Tint">
+      <img src="../images/Auto/TintBlue%20GMC.jpg" alt="tint">
+    </article>
+
+    <article class="gallery-item" data-category="tint" data-img="../images//Auto/tint-Truck.jpg" data-title="Window Tinting" data-desc="Privacy Window Tint">
+      <img src="../images//Auto/tint-Truck.jpg" alt="tint">
+    </article>
+
+    <article class="gallery-item" data-category="tint" data-img="../images/Auto/Tint-Transit.jpg" data-title="Window Tinting" data-desc="Privacy Window Tint">
+      <img src="../images/Auto/Tint-Transit.jpg" alt="tint">
+    </article>
+      
+    <article class="gallery-item" data-category="tint" data-img="../images/Auto/Tint-Tesla.jpg" data-title="Window Tinting" data-desc="Privacy Window Tint">
+      <img src="../images/Auto/Tint-Tesla.jpg" alt="tint">
+    </article>
+      
+    <article class="gallery-item" data-category="tint" data-img="../images/Auto/tint%20truck4.jpeg" data-title="Equipment Window Tinting" data-desc="Privacy Window Tint">
+      <img src="../images/Auto/tint%20truck4.jpeg" alt="tint">
+    </article>
+
+    <article class="gallery-item" data-category="tint" data-img="../images/Auto/tint%20truck3.jpeg" data-title="Equipment Window Tinting" data-desc="Privacy Window Tint">
+      <img src="../images/Auto/tint%20truck3.jpeg" alt="tint">
+    </article>
+          
+    <article class="gallery-item" data-category="tint" data-img="../images/Auto/tint%20truck2.jpeg" data-title="Equipment Window Tint" data-desc="Privacy Window &amp; Heat Protection Tint">
+      <img src="../images/Auto/tint%20truck2.jpeg" alt="tint" >
+    </article>
+      
+    <article class="gallery-item" data-category="tint" data-img="../images/Auto//tint%20truck.jpeg" data-title="Equipment Window Tint" data-desc="Privacy Window &amp; Heat Protection Tint">
+      <img src="../images/Auto//tint%20truck.jpeg" alt="tint">
+    </article>
+          
+    <article class="gallery-item" data-category="tint" data-img="../images/Auto/tint%20rv1.jpeg" data-title="RV Window Tint" data-desc="Privacy Window &amp; Heat Protection Tint">
+      <img src="../images/Auto/tint%20rv1.jpeg" alt="tint">
+    </article>
+
+    <article class="gallery-item" data-category="tint" data-img="../images/Auto/tint%20rv.jpeg" data-title="RV Window Tint" data-desc="Privacy Window &amp; Heat Protection Tint">
+      <img src="../images/Auto/tint%20rv.jpeg" alt="tint">
+    </article>
+
+    <article class="gallery-item" data-category="tint" data-img="../images/Auto/tint%20equipment6.jpeg" data-title="Equipment Window Tint" data-desc="Privacy Window &amp; Heat Protection Tint">
+      <img src="../images/Auto/tint%20equipment6.jpeg" alt="tint">
+    </article>
+      
+       <article class="gallery-item" data-category="tint" data-img="../images/Auto/tint%20equipment5.jpeg" data-title="Equipment Window Tint" data-desc="Privacy Window &amp; Heat Protection Tint">
+      <img src="../images/Auto/tint%20equipment5.jpeg" alt="tint">
+    </article>
+          
+    <article class="gallery-item" data-category="tint" data-img="../images/Auto/side%20by%20side%207.jpeg" data-title="Equipment Window Tint" data-desc="Privacy Window &amp; Heat Protection Tint">
+      <img src="../images/Auto/side%20by%20side%207.jpeg" alt="tint">
+    </article>
+
+    <article class="gallery-item" data-category="tint" data-img="../images/Auto/side%20by%20side%206.jpeg" data-title="Can-Am Window Tint" data-desc="Privacy Window &amp; Heat Protection Tint">
+      <img src="../images/Auto/side%20by%20side%206.jpeg" alt="tint">
+    </article>
+
+    <article class="gallery-item" data-category="tint" data-img="../images/Auto/side%20by%20side%205.jpeg" data-title="Can-Am Window Tint" data-desc="Privacy Window &amp; Heat Protection Tint">
+      <img src="../images/Auto/side%20by%20side%205.jpeg" alt="tint">
+    </article>
+      
+      <article class="gallery-item" data-category="tint" data-img="../images/Auto/side%20by%20side%204.jpeg" data-title="Can-Am Window Tint" data-desc="Privacy Window &amp; Heat Protection Tint">
+      <img src="../images/Auto/side%20by%20side%204.jpeg" alt="tint">
+    </article>
+          
+    <article class="gallery-item" data-category="tint" data-img="../images/Auto/side%20by%20side%203.jpeg" data-title="Can-Am Window Tint" data-desc="Privacy Window &amp; Heat Protection Tint">
+      <img src="../images/Auto/side%20by%20side%203.jpeg" alt="tint">
+    </article>
+
+    <article class="gallery-item" data-category="tint" data-img="../images/Auto/side%20by%20side%20.jpeg" data-title="Can-Am Window Tint" data-desc="Privacy Window &amp; Heat Protection Tint">
+      <img src="../images/Auto/side%20by%20side%20.jpeg" alt="tint">
+    </article>
+      
+  </section>
+        
+        </section>
+   
+  </main>
+    
+    <section class="warranty">
+    <div class="warranty-inner">
+        <h2>LIFETIME WARRANTY</h2>
+        <p>QUALITY YOU CAN TRUST - GUARANTEED FOR LIFE</p>
+        </div>
+    </section>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>© 2026 America's Window Tinting &amp; Graphics</p>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/americas.window.tint/" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          
+      </div>
+    </div>
+  </footer>
+    
+ <!-- Overlay global-->
+<div id="full-overlay">
+    <div class="overlay-content">
+        <img id="overlay-img" src="" alt="Imagen ampliada">
+        <div class="overlay-text">
+            <h3 id="overlay-title"></h3>
+            <p id="overlay-desc"></p>
+        </div>
+    </div>
+
+</div>
+    
+ <script src="../script.js"></script>   
+    
+</body>
+</html>

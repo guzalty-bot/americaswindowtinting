@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <title>Homepage America's Window Tinting &amp; Graphics</title>
+    <link rel="icon" type="image/png" href="images/Icon.png">
+
+     <script>
+        
+    // Menu
+document.addEventListener('DOMContentLoaded', function() {
+  const menuToggle = document.querySelector('.menu-toggle');
+  const mainNav = document.querySelector('.main-nav');
+  
+  menuToggle.addEventListener('click', function() {
+    menuToggle.classList.toggle('active');
+    mainNav.classList.toggle('active');
+  });
+  
+  // Close Menu
+  document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+      menuToggle.classList.remove('active');
+      mainNav.classList.remove('active');
+    });
+  });
+});
+        
+</script>
+ 
+
+    </head>
+    
+<body class="home-page">
+  
+  <header class="top-bar">
+    <div class="logo-wrap">
+        <a href="index.html">
+           <img src="images/Hermiston%20Logo.png" alt="Logo" class="logo"></a>
+      </div>
+      
+ <button class="menu-toggle" aria-label="Toggle menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+      
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="html/Services.html">Services</a>
+      <a href="html/gallery.html">Gallery</a>
+      <a href="html/contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <h1 class="hero-title">TINT•PROTECT<span>•WRAP</span></h1>
+      <p class="hero-info">
+          80553 N. Hwy 395 Hermiston, OR 97838 </p> 
+        <p class="hero-phone">Call: 541-571-6284</p>
+    </div>
+  </section>
+      <section class="services">
+            <div class="services-inner">
+                <article class="service-card">
+                    <img src="images/Auto/Yellow%20Chevrolet%20Tint.jpg" alt="Window Tinting" class="service-image">
+                    <h3>Vehicle Window Tinting</h3>
+                    <p>Automotive Tinting</p>
+                </article>
+                
+                <article class="service-card">
+                    <img src="images/Residential/tint%20residential.jpeg" alt="Commercial Tinting" class="service-image">
+                    <h3>Commercial &amp; Residential Tinting</h3>
+                    <p>Home &amp; Business Tinting</p>
+                </article>
+                <article class="service-card">
+                     <img src="images/PPF/ppf.jpeg" alt="Paint Protection" class="service-image">
+                    <h3>Paint Protection</h3>
+                    <p>Paint Protection Film</p>
+                </article>
+                <article class="service-card">
+                     <img src="images/WrapsFleets/fleet.jpeg" alt="Car Wraps" class="service-image">
+                    <h3>Vehicle Wraps &amp; Fleets</h3>
+                    <p>Custom Wrap &amp; Graphics</p>
+                </article>
+            </div>
+        </section>
+    <section class="benefits">
+        <h2 class="benefits-title">WHY TINT YOUR WINDOWS?</h2>
+        <div class="benefits-grid">
+        <article class="benefit-item">
+        <div class="benefit-icon"><img src="images/path46.png" alt="benefiticon"></div>
+        <h3>HEAT REDUCTION</h3>
+        <p>Stay Cool &amp; Comfortable</p>
+        </article>
+        
+        <article class="benefit-item">
+        <div class="benefit-icon"><img src="images/path10.png" alt="benefiticon"></div>
+        <h3>UV PROTECTION</h3>
+        <p>Block Harmful UV Rays</p>
+        </article>
+            
+        <article class="benefit-item">
+        <div class="benefit-icon"><img src="images/path218.png" alt="benefiticon"></div>
+        <h3>GLARE REDUCTION</h3>
+        <p>Improve Driving VIsibility</p>
+        </article>
+            
+        <article class="benefit-item">
+        <div class="benefit-icon"><img src="images/SECURITE.png" alt="benefiticon"> </div>
+        <h3>PRIVACY &amp; SECURITY</h3>
+        <p>Enhace Privacy &amp; Safety</p>
+        </article>
+            </div>
+    </section>
+    
+    <section class="warranty">
+    <div class="warranty-inner">
+        <h2>LIFETIME WARRANTY</h2>
+        <p>QUALITY YOU CAN TRUST - GUARANTEED FOR LIFE</p>
+        </div>
+    </section>
+    
+    <section class="visit">
+        <div class="visit-inner">
+        <h2>VISIT US TODAY!</h2>
+            <p>80553 N. Hwy 395 Hermiston, OR 97838</p>
+            <p>CALL: 541-571-6284</p>
+        </div>
+    </section>
+    
+    <footer class="site-footer">
+    <div class="footer-inner">
+        <p>© 2026  America's Window Tinting &amp; Graphics</p>
+        <div class="footer-social">
+        <a href="https://www.facebook.com/americas.window.tint/" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
